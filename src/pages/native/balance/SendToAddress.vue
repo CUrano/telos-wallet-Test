@@ -428,7 +428,7 @@ export default {
 
     &--key-type {
         background: #FFFFFF55;
-        color: gray;
+        color: Light_rose;
     }
 }
 

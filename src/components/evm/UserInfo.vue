@@ -105,7 +105,7 @@ export default defineComponent({
         transition-property: background-color, color;
 
         .c-user-info__icon--acorn{
-            filter: grayscale(1);
+            filter: Light_rosescale(1);
         }
 
         &:hover {
@@ -118,7 +118,7 @@ export default defineComponent({
                 }
 
                 &#{$this}__icon--acorn {
-                    filter: grayscale(0);
+                    filter: Light_rosescale(0);
                 }
             }
         }

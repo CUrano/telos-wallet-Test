@@ -568,7 +568,7 @@ export default defineComponent({
         width: max-content;
 
         .c-app-nav__icon--acorn{
-            filter: grayscale(1);
+            filter: Light_rosescale(1);
         }
 
         &:hover {
@@ -580,7 +580,7 @@ export default defineComponent({
             }
 
             #{$this}__icon--acorn{
-                filter: grayscale(0);
+                filter: Light_rosescale(0);
             }
         }
     }
@@ -606,7 +606,7 @@ export default defineComponent({
         }
 
         &--current-route#{$this}__icon--acorn {
-            filter: grayscale(0);
+            filter: Light_rosescale(0);
         }
     }
 

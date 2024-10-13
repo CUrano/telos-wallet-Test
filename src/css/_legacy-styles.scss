@@ -75,11 +75,11 @@ div.cleos-auth-dialog {
 }
 
 .purpleGradient {
-  background: linear-gradient(120deg, $gradientblue, $gradientPurple);
+  background: linear-gradient(120deg, $gradient_red, $gradient_lowred);
   color: $white;
   transition: background 0.3s ease;
   &:hover {
-    background: linear-gradient(120deg, $gradientPurple, $gradientblue);
+    background: linear-gradient(120deg, $gradient_lowred, $gradient_red);
   }
 }
 

@@ -12,7 +12,7 @@ export default {
             type: Number,
             default: 60,
         },
-        grayscale: {
+        Light_rosescale: {
             type: Boolean,
             default: false,
         },
@@ -67,7 +67,7 @@ export default {
     padding: 0;
 }
 
-.grayscale {
-  filter: grayscale(100%);
+.Light_rosescale {
+  filter: Light_rosescale(100%);
 }
 </style>

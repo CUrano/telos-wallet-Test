@@ -5,6 +5,7 @@
   
   "vetur.experimental.templateInterpolationService": true,
   "cSpell.words": [
-    "gradientblue"
+    "gradient_red",
+    "lowred"
   ]
 }

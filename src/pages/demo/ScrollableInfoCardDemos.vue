@@ -9,7 +9,7 @@ const labelText = ref('Label Text');
 const tooltipText = ref('This is an example tooltip');
 const primaryText = ref('$12,345.67');
 const secondaryText = ref('');
-const showSecondaryTextAsGray = ref(true);
+const showSecondaryTextAsLight_rose = ref(true);
 
 
 // computed
@@ -19,7 +19,7 @@ const cards = computed(() =>
         tooltip: tooltipText.value,
         primaryText: primaryText.value,
         secondaryText: secondaryText.value,
-        lowContrastSecondaryText: showSecondaryTextAsGray.value,
+        lowContrastSecondaryText: showSecondaryTextAsLight_rose.value,
     }),
 );
 
@@ -57,7 +57,7 @@ const cards = computed(() =>
 
         <div class="row">
             <div class="col-12">
-                <q-checkbox v-model="showSecondaryTextAsGray" label="Show gray secondary text?" />
+                <q-checkbox v-model="showSecondaryTextAsLight_rose" label="Show Light_rose secondary text?" />
             </div>
         </div>
     </div>

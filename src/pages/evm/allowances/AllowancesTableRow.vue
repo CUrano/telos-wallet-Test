@@ -213,7 +213,7 @@ onMounted(async () => {
                 width="24"
                 :class="{
                     'c-allowances-table-row__asset-logo': true,
-                    'c-allowances-table-row__asset-logo--gray': !rowAsErc20Row.tokenLogo,
+                    'c-allowances-table-row__asset-logo--Light_rose': !rowAsErc20Row.tokenLogo,
                 }"
             >
             <NftViewer
@@ -297,8 +297,8 @@ onMounted(async () => {
         width: 24px;
         height: 24px;
 
-        &--gray {
-            filter: grayscale(100%) opacity(50%);
+        &--Light_rose {
+            filter: Light_rosescale(100%) opacity(50%);
         }
     }
 

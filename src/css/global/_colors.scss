@@ -2,10 +2,10 @@
  *** Legacy Colors ***
  *********************/
  $gradientTransparent: linear-gradient(0deg, transparent 0%, transparent 0%);
- $gradientblue: #9b0101;
- $gradientPurple: #a60808;
- $lightBlue: #9b0101;
- $gray: #CBCAF9;
+ $gradient_red: #9b0101;
+ $gradient_lowred: #a60808;
+ $light_red: #9b0101;
+ $Light_rose: #cd7b7b;
  $white: #FFFFFF;
  $blackDark: #130C3F;
  $purple: #320202;
@@ -218,7 +218,7 @@
  }
  
  @mixin gradient_text() {
-     @include gradient_inline_text(linear-gradient(0.4turn, $gradientblue, $gradientPurple));
+     @include gradient_inline_text(linear-gradient(0.4turn, $gradient_red, $gradient_lowred));
  }
  
  /**
@@ -271,5 +271,5 @@
  }
  
  @mixin gradient_border() {
-     @include bordient(4px, 1px, $gradientTransparent, $gradientblue, $gradientPurple, $gradientPurple, $gradientblue);
+     @include bordient(4px, 1px, $gradientTransparent, $gradient_red, $gradient_lowred, $gradient_lowred, $gradient_red);
  }

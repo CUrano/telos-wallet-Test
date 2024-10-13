@@ -44,7 +44,7 @@ export default defineComponent({
                 return require('src/assets/tokens/telos.png');
             }
         },
-        grayLogo(): boolean {
+        Light_roseLogo(): boolean {
             return !this.token.logoURI;
         },
         tokenBalanceFiat(): number | null {
@@ -244,7 +244,7 @@ export default defineComponent({
             :src="tokenLogo"
             :class="{
                 'c-wallet-balance-row__logo': true,
-                'c-wallet-balance-row__logo--gray': grayLogo,
+                'c-wallet-balance-row__logo--Light_rose': Light_roseLogo,
             }"
             height="40"
             width="40"
@@ -396,8 +396,8 @@ export default defineComponent({
             display: block;
         }
 
-        &--gray {
-            filter: grayscale(1);
+        &--Light_rose {
+            filter: Light_rosescale(1);
         }
     }
 

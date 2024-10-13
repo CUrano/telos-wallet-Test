@@ -289,8 +289,8 @@ export default {
 .depositAddressToggle {
   cursor: pointer;
 }
-.lightBlue {
-  color: $lightBlue;
+.light_red {
+  color: $light_red;
 }
 .note {
   max-width: 25rem;

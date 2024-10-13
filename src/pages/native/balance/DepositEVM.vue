@@ -230,7 +230,7 @@ export default {
 
             <div class="row justify-center">
                 <div
-                    class="lightBlue depositAddressToggle q-mt-xs"
+                    class="light_red depositAddressToggle q-mt-xs"
                     @click="addEvmNetwork"
                 >
                     {{$t('components.add_evm_network')}}
@@ -252,8 +252,8 @@ export default {
   font-size: .8rem;
   cursor: pointer;
 }
-.lightBlue {
-  color: $lightBlue;
+.light_red {
+  color: $light_red;
 }
 .note {
   max-width: 25rem;
